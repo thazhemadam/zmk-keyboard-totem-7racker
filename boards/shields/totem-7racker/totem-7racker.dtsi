@@ -1,0 +1,17 @@
+#include "totem-7racker-matrix.dtsi"
+
+&xiao_serial { status = "disabled"; };
+
+&xiao_spi {
+    status = "okay";
+    cs-gpios = <&xiao_d 9 GPIO_ACTIVE_LOW>;
+    shift_reg: 595@0 {
+        compatible = "zmk,gpio-595";
+        status = "okay";
+        gpio-controller;
+        spi-max-frequency = <200000>;
+        reg = <0>;
+        #gpio-cells = <2>;
+        ngpios = <8>;
+    };
+};

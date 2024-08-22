@@ -1,0 +1,11 @@
+file_format: "1"
+id: "totem-7racker"
+name: totem-7racker
+type: shield
+url: https://github.com/thazhemadam/totem-7racker
+requires: [seeeduino_xiao_ble, seeeduino_xiao_rp2040]
+siblings:
+  - totem-7racker_left
+  - totem-7racker_right
+features:
+  - keys
