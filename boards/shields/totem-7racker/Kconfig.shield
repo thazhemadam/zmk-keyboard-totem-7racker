@@ -1,0 +1,7 @@
+config SHIELD_TOTEM_7RACKER_LEFT
+    def_bool $(shields_list_contains,totem-7racker_left)
+    select SPI
+
+config SHIELD_TOTEM_7RACKER_RIGHT
+    def_bool $(shields_list_contains,totem-7racker_right)
+    select SPI

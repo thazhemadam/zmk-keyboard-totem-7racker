@@ -1,3 +1,4 @@
+name: totem-7racker
 build:
   settings:
     board_root: .
