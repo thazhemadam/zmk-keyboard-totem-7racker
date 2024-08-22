@@ -1,0 +1,11 @@
+#include "totem-7racker.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&shift_reg 0 GPIO_ACTIVE_HIGH>
+        , <&shift_reg 1 GPIO_ACTIVE_HIGH>
+        , <&shift_reg 2 GPIO_ACTIVE_HIGH>
+        , <&shift_reg 3 GPIO_ACTIVE_HIGH>
+        , <&shift_reg 4 GPIO_ACTIVE_HIGH>
+        ;
+};
