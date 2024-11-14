@@ -1,4 +1,4 @@
-if SHIELD_TOTEM_7RACKER_LEFT
+if SHIELD_TOTEM_7RACKER_RIGHT
 config ZMK_KEYBOARD_NAME
     default "Totem 7racker"
 
