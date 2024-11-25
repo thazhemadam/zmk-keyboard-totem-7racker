@@ -5,3 +5,6 @@ config SHIELD_TOTEM_7RACKER_LEFT
 config SHIELD_TOTEM_7RACKER_RIGHT
     def_bool $(shields_list_contains,totem-7racker_right)
     select SPI
+
+config SHIELD_TOTEM_7RACKER_TRACKPOINT
+    def_bool $(shields_list_contains,totem-7racker_trackpoint)
